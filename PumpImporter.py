@@ -1,19 +1,19 @@
 from ConstantUpload import ConstantUpload
 from pprint import pprint
 from time import sleep
-import pandas as pd
+#import pandas as pd
 import json
 import os
 
-data_source = '1551302589557'
+data_source = '1573747993500'
 n=1
 
 data_point_id_lookup_table = {
-    'PressureOut': '1551302290959',
-    'PressueIn': '1551302329220',
-    'StuffingBoxTemp': '1551302223661',
-    'Passage': '1551302273734',
-    'MotorCurrent': '1551302259109'
+    'PressureOut': '1573747981445',
+    'PressueIn': '1573747966587',
+    'StuffingBoxTemp': '1573747956474',
+    'Passage': '1573747914720',
+    'MotorCurrent': '1573747939077'
 }
 
 onboarding_json_file_location = os.path.relpath('SouthBoundTokens/Initial.json')
